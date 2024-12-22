@@ -1,0 +1,11 @@
+/* Correct usage of calc() without extra spacing */
+#container {
+  width: calc(100% - 20px);
+  border: 1px solid black; 
+}
+
+/* Example showing an element inside the container */
+#element-inside {
+  width: 50%;
+  background-color: lightblue;
+}
